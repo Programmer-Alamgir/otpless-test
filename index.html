@@ -9,7 +9,8 @@ GNU nano 7.2                                                     index.html
   <div id="otpless-login-page"></div>
   <script type="text/javascript"> 
  function otpless(data) {
-  document.write(JSON.stringify(data));
+   
+  document.getElementById("otpless-login-page").innerHTML = (JSON.stringify(data));
  }
 </script>
 </body>
